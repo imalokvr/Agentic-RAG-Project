@@ -1,0 +1,39 @@
+# Environment & Secrets
+.env
+.venv/
+venv/
+env/
+
+# Python generated
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Generated at runtime (rebuild with: python -m ingestion.ingest_pipeline)
+vector_store/
+traces/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
